@@ -1,0 +1,50 @@
+{
+  "name": "roldevs_bot",
+  "version": "0.0.1",
+  "description": "General Roldevs bot for Discord and Telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run mocha",
+    "mocha": "node_modules/.bin/mocha",
+    "lint": "node_modules/.bin/eslint .",
+    "discord": "node_modules/.bin/node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/roldevs/roldevs_bot.git"
+  },
+  "keywords": [
+    "role",
+    "rol",
+    "oracle",
+    "bot",
+    "telegram",
+    "discord"
+  ],
+  "author": "Roberto M. Oliva, Alberto Gurdian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roldevs/roldevs_bot/issues"
+  },
+  "homepage": "https://github.com/roldevs/roldevs_bot#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "flyd": "^0.2.8",
+    "glob": "^7.1.6",
+    "ramda": "^0.27.1",
+    "shell-quote": "^1.7.2",
+    "winston": "^3.3.3",
+    "winston-papertrail": "^1.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/register": "^7.10.5",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.1.2",
+    "sinon": "^9.0.3"
+  }
+}
